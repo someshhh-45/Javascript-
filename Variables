@@ -1,0 +1,25 @@
+const accountId = 144553
+let accountEmail = "hitesh@google.com"
+var accountPassword = "12345"
+accountCity = "Jaipur"
+let accountState;
+
+// accountId = 2 // not allowed
+
+
+accountEmail = "hc@hc.com"
+accountPassword = "21212121"
+accountCity = "Bengaluru"
+
+console.log(accountId);
+
+/*
+ let const var are the ways to declare a variable
+but nowadays var is avoided due to 
+block scope and function scope problem but let and const 
+can be used
+
+*/
+
+
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
