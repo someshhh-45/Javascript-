@@ -1,0 +1,16 @@
+The data types in javascript are as follows 
+string,int,Null, undefined,bigint,object
+
+Undefined=>The Undefined type has exactly one value, called undefined.
+Any variable that has not been assigned a value has the value undefined
+         
+      console.log(typeof undefined) 
+           ouput= undefined 
+
+
+
+null=>Representation of Empty string 
+     
+    console.log(typeof null) 
+         ouput= object
+
