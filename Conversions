@@ -1,0 +1,36 @@
+let score = "hitesh"
+
+//console.log(typeof score);
+or another way
+//console.log(typeof(score));
+
+
+//now to convert string to number 
+
+let valueInNumber = Number(score)  
+
+//console.log(typeof valueInNumber);
+o/p will be number
+
+//console.log(valueInNumber);
+o/p it may be number or An error NAN will occur
+
+
+// "33" => 33
+// "33abc" => NaN
+//  true => 1; false => 0
+
+let isLoggedIn = "hitesh"
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+//  console.log(booleanIsLoggedIn);
+
+// 1 => true; 0 => false
+// "" => false
+// "hitesh" => true
+// empty string will give false as output
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber)
