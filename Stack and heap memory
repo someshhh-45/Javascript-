@@ -1,0 +1,22 @@
+In javascript memory management is done automatically 
+
+javascript manages memory in two main areas 
+// stack: for primitive data types( number,boolean,string,null,undef)
+// heap: for non primitive data types(object,array, functions)
+
+
+//code for stack memory 
+  let n1 = 10;
+  let n2 = n1;
+  n2 = 20;
+  console.log(n1); // 10 (remains unchanged)
+
+
+// code for heap memory 
+let obj1 = { 
+   name: "Ajay"
+};
+let obj2 = obj1;
+obj2.name = "Vijay";
+console.log(obj1.name); // "Vijay"
+here the reference values for obj1 and obj2 are same
